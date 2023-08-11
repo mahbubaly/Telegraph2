@@ -2,13 +2,16 @@ import React from 'react';
 import Container from '../Shared/Container';
 import '../../Components/Shared/Style.css'
 import img from '../../assets/Images/Group 6.png'
-import { AiFillAndroid, AiOutlineMacCommand } from 'react-icons/ai';
-import { HiOutlineCloudDownload } from 'react-icons/hi';
-import { BsApple, BsWindows } from 'react-icons/bs';
 import downloadBtn from '../../assets/Images/download2.png'
 import macOrWindows from '../../assets/Images/icon.png'
 import android from '../../assets/Images/and.png'
 import apple from '../../assets/Images/apple.png'
+import manUsingPhone from '../../assets/Images/content.png'
+import Security from '../../assets/Images/Security.png'
+import messages from '../../assets/Images/messages.png'
+import doc from '../../assets/Images/documents.png'
+import womenGroup from '../../assets/Images/women.png'
+
 
 
 const Home = () => {
@@ -52,11 +55,11 @@ const Home = () => {
 
                 {/* Card */}
                 <section>
-                    <div className='grid md:grid-cols-3 mt-[67px]  px-[150px] mb-[38px]   grid-cols-1 gap-[30px]    lg:mt-10'>
+                    <div className='grid md:grid-cols-3 mt-[67px]  lg:px-[150px] mb-[38px]   grid-cols-1 gap-[30px]    lg:mt-10'>
 
                         <div className="card w-[360px] h-[272px] pb-[30px] px-[30px] pt-[36px] bg-[#FFF] CardShadow">
 
-                           
+
                             <img src={android} className='w-[39.922px] h-[47.918px] mb-[26px] text-primary' alt="" />
                             <h1 className='text-[22px] headwind font-medium '>Android</h1>
                             <p className='headerPara mt-[15px] mb-[21px]'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
@@ -75,7 +78,7 @@ const Home = () => {
 
                         <div className="card w-[360px] h-[272px] pb-[30px] px-[30px] pt-[36px] bg-[#FFF] CardShadow">
 
-                           
+
                             <img src={apple} alt="" className='w-[38.551px] h-[47.567px] mb-[26px] text-primary' />
                             <h1 className='text-[22px] headwind font-medium '>iPhone</h1>
                             <p className='headerPara mt-[15px] mb-[21px]'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
@@ -92,7 +95,7 @@ const Home = () => {
 
                         <div className="card w-[360px] h-[272px] pb-[30px] px-[30px] pt-[36px] bg-[#FFF] CardShadow">
 
-                        <img src={macOrWindows} className='w-[110px] mb-[26px]  h-[42px]' alt="" />
+                            <img src={macOrWindows} className='w-[110px] mb-[26px]  h-[42px]' alt="" />
                             <h1 className='text-[22px] headwind font-medium '>Mac or Windows</h1>
                             <p className='headerPara mt-[15px] mb-[21px]'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
 
@@ -119,6 +122,169 @@ const Home = () => {
                     </div>
 
                 </section>
+
+
+                {/* Simple, Personal, Real Time Messaging */}
+
+
+                <section>
+                    <div className='grid lg:grid-cols-2 grid-cols-1 gap-[37px] items-center lg:px-[150px]'>
+                        <div className='w-[676px] h-[635px]'>
+                            <img src={manUsingPhone} alt="" />
+
+                        </div>
+                        <div className='ml-[52px]'>
+                            <h1 className='text-[35px] headwind font-medium text-[#00194A] mb-[30px]'>Simple, Personal, Real Time Messaging</h1>
+                            <p className='text-lg font-light headerPara'>
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+
+                                <br />
+                                <br />
+
+
+                                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.
+                            </p>
+
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+                {/* Sharing Cool Stuff With Your Community */}
+
+                <section>
+                    <div className='grid md:grid-cols-2 lg:px-[150px] items-center mt-[150px] gap-[111px]'>
+                        <div>
+                            <div className=''>
+                                <h1 className='text-[35px] headwind font-medium text-[#00194A] mb-[30px]'>Sharing Cool Stuff With Your Community</h1>
+                                <p className='text-lg font-light headerPara'>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+
+                                    <br />
+                                    <br />
+
+
+                                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div className='lg:flex gap-[30px] items-center'>
+
+                            <div>
+                                <div className="pt-[37.4px] px-5 pb-[30px] lg:w-[260px] h-[249px] bg-base-100 shadow-xl CardShadow">
+                                    <div className="">
+                                        <img src={Security} className='w-[41.918px] h-[47.909px]' alt="" />
+
+                                        <h1 className=' mt-[26px] text-secondary text-lg font-medium headwind mb-[15px]'>Security by Default</h1>
+                                        <p className='headerPara font-light text-secondary'>It is a long established fact that a reader will be distracted by the readable content.</p>
+
+                                    </div>
+                                </div>
+                                <div className="pt-[37.4px] mt-[30px] px-5 pb-[30px] lg:w-[260px] h-[249px] bg-base-100 shadow-xl CardShadow">
+                                    <div className="">
+                                        <img src={messages} className='w-[47.586px] h-[45.207px]' alt="" />
+
+                                        <h1 className=' mt-[26px] text-secondary text-lg font-medium headwind mb-[15px]'>Say What's On Your Mind</h1>
+                                        <p className='headerPara font-light text-secondary'>It is a long established fact that a reader will be distracted by the readable content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div className="pt-[37.4px] px-5 pb-[30px] lg:w-[260px] h-[249px] bg-base-100 shadow-xl CardShadow">
+                                <div className="">
+                                    <img src={doc} className='w-[41.918px] h-[47.909px]' alt="" />
+
+                                    <h1 className=' mt-[26px] text-secondary text-lg font-medium headwind mb-[15px]'>Document Share</h1>
+                                    <p className='headerPara font-light text-secondary'>It is a long established fact that a reader will be distracted by the readable content.</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                {/* Keep In Touch With The Groups Of People. */}
+
+                <section>
+                    <div className='grid lg:grid-cols-2 gap-[64px] items-center lg:px-[150px]'>
+                        <div className='w-[600px] h-[600px]'>
+                            <img src={womenGroup} className='' alt="" />
+
+                        </div>
+                        <div>
+
+                            <div className=''>
+                                <h1 className='text-[35px] headwind font-medium text-[#00194A] mb-[30px]'>Keep In Touch With The Groups Of People.</h1>
+                                <p className='text-lg font-light headerPara'>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+
+                                    <br />
+                                    <br />
+
+
+                                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section>
+
+                    <div
+                        className="bg-[#00194A] text-white rounded-[25px] lg:mt-[179px] mx-[150px] lg:py-[50px]   lg:items-center" >
+                        <div className=" text-center">
+                            <h1 className=" lg:text-[35px] font-medium headwind">
+                                Let’s Start With Quick App
+
+                            </h1>
+
+                            <p className="mx-auto  max-w-[580px] text-[#FFF]  mt-4 headerPara">
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                            </p>
+
+                            <div className="mt-8 flex flex-wrap w-[ 275px]   justify-center gap-4">
+                                <a
+                                    className="block w-full logoIcon font-bold rounded-[30px] border  bg-primary px-12 py-3 text-sm  text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                                    href="/get-started"
+                                >
+                                    Request For Early Access
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+                <div className='md:flex px-[150px] lg:my-[80px] my-5 lg:mt-[80px] justify-between p-2 text-[#00194A]'>
+                    <div>
+                        <p className='text-lg headwind font-medium'>© Telegraph. 2020 — All rights reserved.</p>
+                    </div>
+                    <div className='flex gap-6 text-[16px] headwind font-medium lg:justify-start justify-center text-[#00194A]'>
+                        <p>Twitter</p>
+                        <p>Instagram</p>
+                        <p>Facebook</p>
+                    </div>
+                </div>
+
 
 
 
