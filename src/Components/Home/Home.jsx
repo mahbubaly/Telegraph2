@@ -56,20 +56,20 @@ const Home = () => {
 
                 {/* Card */}
                 <section>
-                    <div className='grid md:grid-cols-3 mt-[50px] lg:mt-[67px]  lg:px-[150px] mb-[38px]   grid-cols-1 gap-[30px]    '>
+                    <div className='grid md:grid-cols-3 mt-[50px] lg:mt-[67px]  lg:px-[150px] mb-[38px]   grid-cols-1 gap-[30px] '>
 
-                        <div className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px] lg:h-[272px] lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
+                        <div className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
 
 
                             <img src={android} className='w-[39.922px] h-[47.918px] mb-5 lg:mb-[26px] ' alt="" />
                             <h1 className='lg:text-[22px] text-5 headwind font-medium mb-[15px] '>Android</h1>
                             <p className='headerPara lg:text-[16px] text-[14px] mb-5 lg:mt-[15px] space-y-5 lg:mb-[21px]'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
 
-                            <div className="flex justify-between items-center ">
-                                <p className='  Try_link text-slate-300 text-[16px] underline font-normal hover:text-secondary '>
+                            <div className="flex justify-between items-center  mb-5">
+                                <p className='  Try_link font-normal text-secondary hover:text-primary text-[16px] underline   '>
                                     Try Beta For Free
                                 </p>
-                                <img src={downloadBtn} className='w-5 h-[19px]' alt="" />
+                                <img src={downloadBtn} className='w-[20.992px] h-[19px]' alt="" />
 
                             </div>
 
@@ -80,7 +80,7 @@ const Home = () => {
 
                         {/* 2 */}
 
-                        <div className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px] lg:h-[272px] lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
+                        <div className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
 
 
                             <img src={apple} className='w-[34px] lg:w-[38.551px] h-[47.567px] mb-[26px]  ' alt="" />
@@ -88,10 +88,10 @@ const Home = () => {
                             <p className='headerPara lg:text-[16px] text-[14px] mb-5 lg:mt-[15px] space-y-5 lg:mb-[21px]'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
 
                             <div className="flex justify-between items-center ">
-                                <p className='  Try_link text-slate-300 text-[16px] underline font-normal hover:text-secondary '>
+                                <p className='  Try_link font-normal text-secondary hover:text-primary  text-[16px] underline  '>
                                     Try Beta For Free
                                 </p>
-                                <img src={downloadBtn} className='w-5 h-[19px]' alt="" />
+                                <img src={downloadBtn} className='w-[20.992px] h-[19px]' alt="" />
 
                             </div>
 
@@ -100,7 +100,7 @@ const Home = () => {
                         {/* 3 */}
 
 
-                        <div className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px] lg:h-[272px] lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
+                        <div className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
 
 
                             <img src={macOrWindows} className='lg:w-[101.229px] w-[88px]  lg:h-[47.567px] mb-[26px]  ' alt="" />
@@ -108,10 +108,10 @@ const Home = () => {
                             <p className='headerPara lg:text-[16px] text-[14px] mb-5 lg:mt-[15px] space-y-5 lg:mb-[21px]'>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
 
                             <div className="flex justify-between items-center ">
-                                <p className='  Try_link text-slate-300 text-[16px] underline font-normal hover:text-secondary '>
+                                <p className='  Try_link font-normal text-secondary hover:text-primary text-[16px] underline  '>
                                     Try Beta For Free
                                 </p>
-                                <img src={downloadBtn} className='w-5 h-[19px]' alt="" />
+                                <img src={downloadBtn} className='w-[20.992px] h-[19px]' alt="" />
 
                             </div>
 
