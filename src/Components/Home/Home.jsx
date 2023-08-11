@@ -256,7 +256,7 @@ const Home = () => {
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                             </p>
 
-                            <div className="mt-8 flex flex-wrap lg:w-[275px]   justify-center gap-4">
+                            <div className="mt-8 flex flex-wrap lg:w-[275px] mx-auto w-full   justify-center gap-4">
                                 <a
                                     className="block w-full logoIcon font-bold rounded-[30px] border  bg-primary px-12 py-3 text-sm  text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
                                     href="/get-started"
