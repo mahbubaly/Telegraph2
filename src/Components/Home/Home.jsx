@@ -217,7 +217,7 @@ const Home = () => {
 
                 <section>
                     <div className='grid lg:grid-cols-2 gap-[64px] items-center lg:px-[150px]'>
-                        <div className='lg:w-[600px] lg:h-[600px] w-[280px] h-[357px]'>
+                        <div className='lg:w-[600px] lg:h-[600px] lg:mx-0 mx-auto w-[280px] h-[357px]'>
                             <img src={womenGroup} className='' alt="" />
 
                         </div>
