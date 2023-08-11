@@ -10,10 +10,10 @@ const Home = () => {
             <Container>
 
 
-                <header className='flex justify-between  xl:mt-[44px] items-center'>
-                    <h1 className='text-[#FF0043] text-xl font-bold xl:pl-[146px]'>Telegraph</h1>
+                <header className='flex justify-between  lg:mt-[44px] items-center'>
+                    <h1 className='text-[#FF0043] text-xl font-bold lg:pl-[146px]'>Telegraph</h1>
                 
-                    <button className='text-[14px] xl:mr-[154px]  2xl:mr-[350px]   font-bold  w-[94px] h-[46px] bg-[#FF0043] rounded-[23px] text-[#fff] '>Try Beta</button>
+                    <button className='text-[14px] lg:mr-[154px]  2xl:mr-[350px]   font-bold  w-[94px] h-[46px] bg-[#FF0043] rounded-[23px] text-[#fff] '>Try Beta</button>
                    
 
                 </header>
