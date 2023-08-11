@@ -19,8 +19,8 @@ const Home = () => {
                 </header>
 
                 <section>
-                    <div className='lg:flex justify-center gap-[46px] mt-[76px]  items-center'>
-                        <div className='lg:ml-[146px] w-[552px] '>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 justify-center gap-[46px] mt-[76px]  items-center'>
+                        <div className='lg:ml-[146px]  '>
                             <h1 className=' text-6xl leading-[85px] font-medium text-[#00194A]'>Simple. Secure. Reliable messaging.</h1>
 
                             <p className='font-light  text-lg text-[#00194A] mt-5'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
@@ -32,8 +32,8 @@ const Home = () => {
                             </div>
 
                         </div>
-                        <div className='lg:w-[594px] h-[594px]'>
-                            <img src={img} className='  pr-[76.37px]' alt="" />
+                        <div className=''>
+                            <img src={img} className=' w-[654.712px] h-[604px] pr-[76.37px]' alt="" />
 
 
                         </div>
