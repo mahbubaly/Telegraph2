@@ -13,7 +13,7 @@ const Home = () => {
                 <header className='flex justify-between  lg:mt-[44px] items-center'>
                     <h1 className='text-[#FF0043] text-xl font-bold lg:pl-[146px]'>Telegraph</h1>
                 
-                    <button className='text-[14px] lg:mr-[154px]  2xl:mr-[350px]   font-bold  w-[94px] h-[46px] bg-[#FF0043] rounded-[23px] text-[#fff] '>Try Beta</button>
+                    <button className='text-[14px] lg:mr-[154px]      font-bold  w-[94px] h-[46px] bg-[#FF0043] rounded-[23px] text-[#fff] '>Try Beta</button>
                    
 
                 </header>
@@ -32,7 +32,7 @@ const Home = () => {
                             </div>
 
                         </div>
-                        <div className='2xl:flex justify-center'>
+                        <div className='2xl:flex justify-end 2xl:'>
                             <img src={img} className=' lg:w-[654.712px] h-[604px] pr-[65.29px]' alt="" />
 
 
