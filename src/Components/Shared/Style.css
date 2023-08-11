@@ -1,0 +1,35 @@
+/* Font 700 width roboto */
+.logoIcon {
+    font-family: 'Roboto';
+}
+
+/* Font 500 width roboto */
+.headwind {
+    font-family: 'Roboto';
+
+}
+
+/* Font 400 width roboto */
+
+.Try_link {
+   
+    font-family: Roboto;
+    
+
+}
+
+/* Font 300 width roboto */
+.headerPara {
+    color: #00194A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+
+
+}
+
+.CardShadow {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.03);
+}
