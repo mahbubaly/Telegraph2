@@ -31,20 +31,21 @@ const Home = () => {
 
                 <header>
                     <div className='grid grid-cols-1 lg:grid-cols-2 justify-center gap-[46px] mt-[76px]  items-center'>
-                        <div className=' lg:ml-[146px]  '>
-                            <h1 className='headwind text-6xl leading-[85px] font-medium text-[#00194A]'>Simple. Secure. Reliable messaging.</h1>
+                        <div className=' lg:ml-[146px] '>
+                            <h1 className='headwind lg:text-6xl text-[30px] leading-[85px] font-medium text-[#00194A]'>Simple. Secure. Reliable messaging.
+                            </h1>
 
                             <p className='headerPara mt-5'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
 
                             <div className='mt-[50px]'>
-                                <button className='text-[16px] logoIcon w-[275px] h-[60px] bg-primary font-bold text-[#FFF] rounded-[30px] lg:mb-[164px]'>
+                                <button className='text-[16px] logoIcon w-full lg:w-[275px] h-[60px] bg-primary font-bold text-[#FFF] rounded-[30px] lg:mb-[164px]'>
                                     Request For Early Access
                                 </button>
                             </div>
 
                         </div>
-                        <div className='2xl:flex justify-end 2xl:'>
-                            <img src={img} className=' lg:w-[654.712px] h-[604px] pr-[65.29px]' alt="" />
+                        <div className='2xl:flex justify-end  2xl:'>
+                            <img src={img} className='w-[280px] mx-auto lg:mx-0  h-[269px] lg:w-[654.712px] lg:h-[604px] lg:pr-[65.29px]' alt="" />
 
 
                         </div>
@@ -129,12 +130,12 @@ const Home = () => {
 
                 <section>
                     <div className='grid lg:grid-cols-2 grid-cols-1 gap-[37px] items-center lg:px-[150px]'>
-                        <div className='w-[676px] h-[635px]'>
+                        <div className='w-[280px] mx-auto lg:mx-0 h-[263px] lg:w-[676px]  lg:h-[635px]'>
                             <img src={manUsingPhone} alt="" />
 
                         </div>
-                        <div className='ml-[52px]'>
-                            <h1 className='text-[35px] headwind font-medium text-[#00194A] mb-[30px]'>Simple, Personal, Real Time Messaging</h1>
+                        <div className='lg:ml-[52px]'>
+                            <h1 className='text-[35px] headwind font-medium text-[#00194A] lg:mb-[30px]'>Simple, Personal, Real Time Messaging</h1>
                             <p className='text-lg font-light headerPara'>
                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
 
@@ -155,7 +156,7 @@ const Home = () => {
                 {/* Sharing Cool Stuff With Your Community */}
 
                 <section>
-                    <div className='grid md:grid-cols-2 lg:px-[150px] items-center mt-[150px] gap-[111px]'>
+                    <div className='grid md:grid-cols-2 lg:px-[150px] items-center mt-[50px] lg:mt-[150px] gap-[111px]'>
                         <div>
                             <div className=''>
                                 <h1 className='text-[35px] headwind font-medium text-[#00194A] mb-[30px]'>Sharing Cool Stuff With Your Community</h1>
@@ -216,7 +217,7 @@ const Home = () => {
 
                 <section>
                     <div className='grid lg:grid-cols-2 gap-[64px] items-center lg:px-[150px]'>
-                        <div className='w-[600px] h-[600px]'>
+                        <div className='lg:w-[600px] lg:h-[600px] w-[280px] h-[357px]'>
                             <img src={womenGroup} className='' alt="" />
 
                         </div>
@@ -244,7 +245,7 @@ const Home = () => {
                 <section>
 
                     <div
-                        className="bg-[#00194A] text-white rounded-[25px] lg:mt-[179px] mx-[150px] lg:py-[50px]   lg:items-center" >
+                        className="bg-[#00194A] p-5 lg:p-0 text-white rounded-[25px] mt-[50px] lg:mt-[179px] lg:mx-[150px] lg:py-[50px]   lg:items-center" >
                         <div className=" text-center">
                             <h1 className=" lg:text-[35px] font-medium headwind">
                                 Let’s Start With Quick App
@@ -255,7 +256,7 @@ const Home = () => {
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                             </p>
 
-                            <div className="mt-8 flex flex-wrap w-[ 275px]   justify-center gap-4">
+                            <div className="mt-8 flex flex-wrap lg:w-[275px]   justify-center gap-4">
                                 <a
                                     className="block w-full logoIcon font-bold rounded-[30px] border  bg-primary px-12 py-3 text-sm  text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
                                     href="/get-started"
@@ -274,7 +275,7 @@ const Home = () => {
 
 
 
-                <div className='md:flex px-[150px] lg:my-[80px] my-5 lg:mt-[80px] justify-between p-2 text-[#00194A]'>
+                <div className='md:flex lg:px-[150px] lg:my-[80px] my-[50px] justify-between p-2 text-[#00194A]'>
                     <div>
                         <p className='text-lg headwind font-medium'>© Telegraph. 2020 — All rights reserved.</p>
                     </div>
