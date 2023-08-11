@@ -262,32 +262,34 @@ const Home = () => {
 
                 <section>
 
-                    <div className="bg-[#00194A] pt-[30px] px-5  mx-auto   lg:p-0 lg:w-[1139px] w-[280px] lg:h-[346px] text-white rounded-[25px] mt-[50px] lg:mt-[179px] lg:mx-[150px] lg:py-[50px]   lg:items-center" >
+                    
+                        <div className="bg-[#00194A] mx-auto pt-[30px] px-5     lg:p-0  lg:h-[346px] text-white rounded-[25px] mt-[50px] lg:mt-[179px] lg:mx-[150px] lg:py-[50px]   lg:items-center" >
 
 
-                        <div className=" text-center">
-                            <h1 className=" lg:text-[35px] font-medium headwind">
-                                Let’s Start With Quick App
+                            <div className=" text-center">
+                                <h1 className=" lg:text-[35px] font-medium headwind">
+                                    Let’s Start With Quick App
 
-                            </h1>
+                                </h1>
 
-                            <p className="mx-auto mt-5 lg:mb-0 mb-[50px]  lg:max-w-[580px] text-[#FFF]  lg:mt-4 headerPara">
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                            </p>
-
-
-                           
+                                <p className="mx-auto mt-5 lg:mb-0 mb-[50px]  lg:max-w-[580px] text-[#FFF]  lg:mt-4 headerPara">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                </p>
 
 
-                            <div className='mt-[30px]  lg:mb-0 lg:mt-[50px]'>
-                                <button className='mb-[30px] text-[16px] logoIcon w-full lg:w-[275px] h-[60px] bg-primary font-bold text-[#FFF] rounded-[30px] lg:mb-[164px]  hover:bg-[#D40138] hover:text-[#FFFFFF]'>
-                                    Request For Early Access
-                                </button>
+
+
+
+                                <div className='mt-[30px]  lg:mb-0 lg:mt-[50px]'>
+                                    <button className='mb-[30px] text-[16px] logoIcon w-full lg:w-[275px] h-[60px] bg-primary font-bold text-[#FFF] rounded-[30px] lg:mb-[164px]  hover:bg-[#D40138] hover:text-[#FFFFFF]'>
+                                        Request For Early Access
+                                    </button>
+                                </div>
+
+
                             </div>
-
-
                         </div>
-                    </div>
+                    
                 </section>
 
 
