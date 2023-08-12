@@ -80,7 +80,7 @@ const Home = () => {
                             data-aos-delay="50"
                              data-aos-duration="800"
                             data-aos-easing="ease-in"
-                            className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
+                            className="card w-[280px] mx-auto lg:mx-0 xl:w-auto  lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
 
 
                             <img src={android} className='w-[39.922px] h-[47.918px] mb-5 lg:mb-[26px] ' alt="" />
@@ -107,7 +107,7 @@ const Home = () => {
                             data-aos-delay="50"
                              data-aos-duration="800"
                             data-aos-easing="ease-in"
-                            className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
+                            className="card w-[280px] mx-auto lg:mx-0 xl:w-auto  lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
 
 
                             <img src={apple} className='w-[34px] lg:w-[38.551px] h-[47.567px] mb-[26px]  ' alt="" />
@@ -134,7 +134,7 @@ const Home = () => {
                              data-aos-duration="800"
                             data-aos-easing="ease-in"
 
-                            className="card w-[280px] mx-auto lg:mx-0  lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
+                            className="card w-[280px] mx-auto lg:mx-0 xl:w-auto lg:w-[360px]  lg:pb-[30px] lg:px-[30px] px-5 py-5 lg:pt-[36px] bg-[#FFF] CardShadow">
 
 
                             <img src={macOrWindows} className='lg:w-[101.229px] w-[88px]  lg:h-[47.567px] mb-[26px]  ' alt="" />
